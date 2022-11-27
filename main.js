@@ -139,7 +139,6 @@ class TTTGame {
 		for (let { x, y } of availableMoves) {
 			board[y][x] = toPut;
 			let getScore = this.miniMax(!xTurn, 1);
-			console.log(x, y, getScore);
 			if (xTurn) {
 				if (getScore > minScore) {
 					minScore = getScore;
