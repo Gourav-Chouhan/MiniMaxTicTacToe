@@ -1,5 +1,5 @@
 const staticDevCoffee = "dev-coffee-site-v1";
-const assets = ["/", "/index.html", "/css/style.css", "/js/app.js", "/images"];
+const assets = ["/", "/index.html", "/css/style.css", "/js/app.js"];
 
 self.addEventListener("install", (installEvent) => {
 	installEvent.waitUntil(
